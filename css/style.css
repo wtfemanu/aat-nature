@@ -1,0 +1,45 @@
+html{
+    font-size: calc(11px + 0.390625);
+}
+a{   color: #FFFFFF;
+    text-decoration: none;}
+
+header {
+    background-color: #3B8686;
+    justify-content: baseline;
+    align-items: center;
+}
+
+header ul{
+    display: flex;
+}
+header li{
+    margin: 1.6vw 1.5vw 1.4vw 1vw;
+}
+header li :hover{
+background: rgba(255, 255, 255, 0.34);
+border-radius: 1vw 1vw 1vw 1vw;
+transition: 750ms;
+
+}
+header li:first-child{
+    margin: 1.4vw 51vw 1.4vw 4vw;
+}
+header li a{
+    padding: 4px 15px 4px 15px;
+}
+.banner {
+    padding: 15vw 10vw 12vw 10vw;
+   background: linear-gradient(rgba(121, 189, 154, 0.2),rgba(121, 189, 154, 0.2)),url(../imgs/back-banner.png)no-repeat center center;
+   background-size: cover;
+
+}
+.banner h1{
+    color: white;
+    font-size: 2rem;
+    padding: 1vw 2vw 1vw 2vw;
+    background: rgba(59, 134, 134, 0.5);
+    width: 20%;
+
+}
+
